@@ -29,17 +29,22 @@
 		<script src="js/transition.js"></script>
 	</head>
 	<body>
+		
+		<section class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p class="pull-right phoneSocials "><strong>794 667 074</strong></p>
+						<img class="socialsIcon pull-right" src="img/phone.png" alt="">
+						
 
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
+						<a href=""><img class="socialsIcon"src="img/facebook.png" alt="facebook"></a>
+						<a href=""><img class="socialsIcon"src="img/google.png" alt="googleplus"></a>
 
-					<p class="text-right">Zadzwoń: 794 667 074</p>
-
+					</div>
 				</div>
 			</div>
-		</div>
-
+		</section>
 		<div class="container">
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
@@ -132,7 +137,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident in voluptatibus placeat aspernatur temporibus, voluptatum, cupiditate quia, quasi vero officiis natus optio voluptates culpa ullam possimus. Velit voluptas iste numquam, ipsa, ex adipisci corrupti doloribus in quibusdam dignissimos, ad distinctio quasi sequi quod quo minima. Assumenda consectetur necessitatibus iusto aliquid!
 							</p>
-								<a href=""><button type="button" class="btn btn-default btn-lg">Więcej</button></a>
+								<a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a>
 						</div>
 					</div>
 				</div>
@@ -151,7 +156,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident in voluptatibus placeat aspernatur temporibus, voluptatum, cupiditate quia, quasi vero officiis natus optio voluptates culpa ullam possimus. Velit voluptas iste numquam, ipsa, ex adipisci corrupti doloribus in quibusdam dignissimos, ad distinctio quasi sequi quod quo minima. Assumenda consectetur necessitatibus iusto aliquid!
 							</p>
-								<a href=""><button type="button" class="btn btn-default btn-lg">Więcej</button></a>
+								<a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a>
 						</div>
 					</div>
 				</div>
@@ -170,7 +175,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident in voluptatibus placeat aspernatur temporibus, voluptatum, cupiditate quia, quasi vero officiis natus optio voluptates culpa ullam possimus. Velit voluptas iste numquam, ipsa, ex adipisci corrupti doloribus in quibusdam dignissimos, ad distinctio quasi sequi quod quo minima. Assumenda consectetur necessitatibus iusto aliquid!
 							</p>
-								<a href=""><button type="button" class="btn btn-default btn-lg">Więcej</button></a>
+								<a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a>
 						</div>
 					</div>
 				</div>
@@ -189,7 +194,7 @@
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident in voluptatibus placeat aspernatur temporibus, voluptatum, cupiditate quia, quasi vero officiis natus optio voluptates culpa ullam possimus. Velit voluptas iste numquam, ipsa, ex adipisci corrupti doloribus in quibusdam dignissimos, ad distinctio quasi sequi quod quo minima. Assumenda consectetur necessitatibus iusto aliquid!
 							</p>
-								<a href=""><button type="button" class="btn btn-default btn-lg">Więcej</button></a>
+								<a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a>
 						</div>
 					</div>
 				</div>
@@ -218,18 +223,21 @@
 						<h2 class="text-center">O nas</h2>
 					</div>
 					
-					<div class="col-md-6">
+					<div class="col-md-6 about">
 						<img class="img-responsive" src="img/our.jpg" alt="">
 					</div>
-					<div class="col-md-6">
-						<p>
-							Nasze początki sięgają 2010 roku. Od tego mometu tworzymy zgrany i kreatwyny zespół, który projektuje i tworzy strony internetowe przy zachowaniu najwyższych standartów. Do każdego projektu podchodzimy indywidualnie i słuchamy naszych klientów. Przy projektowaniu kierujemy się najnowszymi trendami w internecie oraz technologiami. Potrafimy dostosować stronę klieta do tego w jakie branży działa, zachowując przy tym estyczność, funkcjonalość i czytelność. Nasze strony są responsywne, co w dobie rosnący urządzeń mobilnych jest nie odłączym elementem, każdej witryny. Zawsze stawiamy na zadowolenie i statysfackje klienta.
+					<div class="col-md-6 about">
+						<p class="aboutText">
+							Nasze początki sięgają 2010 roku. Od tego mometu tworzymy zgrany i kreatwyny zespół, który projektuje i tworzy strony internetowe przy zachowaniu najwyższych standartów. Do każdego projektu podchodzimy indywidualnie i słuchamy naszych klientów. Przy projektowaniu kierujemy się najnowszymi trendami w internecie oraz technologiami. 
+							<br />
+							<br />
+							Potrafimy dostosować stronę klieta do tego w jakie branży działa, zachowując przy tym estyczność, funkcjonalość i czytelność. Nasze strony są responsywne, co w dobie rosnący urządzeń mobilnych jest nie odłączym elementem, każdej witryny. Zawsze stawiamy na zadowolenie i statysfackje klienta.
 						</p>
 					</div>
 				</div>
 			</div>
 		</section>
-
+		<!-- End About section -->
 		<div class="container">
 			<div class="row">
 

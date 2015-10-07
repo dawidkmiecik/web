@@ -6763,12 +6763,53 @@ body {
 html {
   font-size: 62.5%;
 }
+p {
+  font-size: 1.6rem;
+}
+.top {
+  border-bottom: 2px solid #756e75;
+  margin-bottom: .5rem;
+}
+.phoneSocials {
+  font-size: 2.0rem;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+}
+.socialsIcon {
+  height: 2.2rem;
+  width: 2.2rem;
+  margin-left: .5rem;
+  margin-top: .5rem;
+}
+.navbar {
+  background-color: transparent;
+  border: none;
+}
+.navbar .nav li {
+  font-size: 1.7rem;
+}
+.navbar .nav li a {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 2px solid transparent;
+}
+.navbar .nav li a:hover {
+  color: #e33348;
+  border-bottom: 2px solid #e33348;
+}
 .carousel-inner {
   margin-top: 4.0rem;
   margin-bottom: 5.0rem;
 }
 .carousel {
   margin-top: 5.0rem;
+}
+.carousel-indicators h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+.carousel-indicators .col-md-3 {
+  position: static;
 }
 .web,
 .active .web,
@@ -6810,13 +6851,27 @@ html {
 .active .marketing {
   background-image: url(../img/marketing-dark.png);
 }
+.btn-style {
+  background-color: #e33348;
+  padding: .5rem 2.0rem;
+  color: black;
+}
+#BackgroundAbout {
+  position: relative;
+  padding-bottom: 2.5rem;
+}
 #BackgroundAbout,
 #BackgroundContact {
   background-color: #e33348;
 }
 #BackgroundAbout p,
 #BackgroundContact p {
-  color: #756e75;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+.about {
+  margin-top: 3.0rem;
 }
 .icon {
   color: white;

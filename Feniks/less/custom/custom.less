@@ -2,6 +2,7 @@
 @IconColor: #3A424D;
 @IconColor2: rgb(58, 66, 77);
 @BackgroundColorRed:#e33348;
+@Szary: #756e75;
 
 body {
   background-color: #ededed;
@@ -11,12 +12,72 @@ html {
   font-size: 62.5%;
 }
 
+p {
+  font-size: 1.6rem;
+}
+
+// Socilas Icon Ruels
+
+.top {
+  border-bottom: 2px solid @Szary;
+  margin-bottom: .5rem;
+}
+
+.phoneSocials {
+  font-size: 2.0rem;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem
+}
+.socialsIcon {
+  height: 2.2rem; 
+  width: 2.2rem;
+  margin-left: .5rem;
+  margin-top: .5rem;
+}
+
+// Socilas Icon Ruels END
+
+// Navbar Ruels
+
+.navbar {
+  background-color: transparent;
+  border: none;
+  .nav{
+    li {
+    font-size: 1.7rem;
+
+      a {
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        border-bottom: 2px solid transparent;
+        &:hover {
+          color: @BackgroundColorRed;
+          border-bottom: 2px solid @BackgroundColorRed;
+        }
+      }
+    }
+  }
+
+}
+
+//Carousel Rules
+
 .carousel-inner {
   margin-top: 4.0rem;
   margin-bottom: 5.0rem;
 }
 .carousel {
   margin-top: 5.0rem;
+}
+
+.carousel-indicators {
+  h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+  }
+  .col-md-3 {
+    position: static;
+  }
 }
 
 .web, .active .web, .shop, .active .shop, .audit, .active .audit, .marketing,  .active .marketing   {
@@ -62,14 +123,41 @@ html {
   background-image: url(../img/marketing-dark.png);
 }
 
+.btn-style {
+  background-color: @BackgroundColorRed;
+  padding: .5rem 2.0rem;
+  color: black;
+
+}
+
+// Carousel Rules END
+
+// Background Section Color and Rules
+
+#BackgroundAbout {
+   position: relative;
+   padding-bottom: 2.5rem;
+}
 
 #BackgroundAbout, #BackgroundContact {
   background-color: @BackgroundColorRed;
   p {
-    color: #756e75;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
   }
 
 }
+
+// Background Section Color and Ruels END
+
+.about {
+  margin-top: 3.0rem;
+
+}
+
+
+// Mark ruels
 
 .icon {
   color: white;
@@ -96,4 +184,6 @@ html {
   -webkit-border-radius: 150px 150px 150px 150px;
   border-radius: 150px 150px 150px 150px;
 }
+
+// Mark Ruels END
 
