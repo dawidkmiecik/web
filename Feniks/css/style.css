@@ -6810,6 +6810,34 @@ html {
 .active .marketing {
   background-image: url(../img/marketing-dark.png);
 }
-#BackgroundAbout {
+#BackgroundAbout,
+#BackgroundContact {
   background-color: #e33348;
+}
+#BackgroundAbout p,
+#BackgroundContact p {
+  color: #756e75;
+}
+.icon {
+  color: white;
+  font-size: 10rem;
+  line-height: auto;
+}
+.quality {
+  text-align: center;
+}
+.quality p {
+  text-align: justify;
+}
+.iconQuality {
+  background: #3a424d;
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  padding: 1.6rem;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  -webkit-border-radius: 150px 150px 150px 150px;
+  border-radius: 150px 150px 150px 150px;
 }

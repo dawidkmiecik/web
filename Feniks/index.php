@@ -5,9 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Feniks Desgin - Main</title>
-		
-		<link href="css/style.css" rel="stylesheet">
+
 		<link href="css/fonts.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="css/style.css" rel="stylesheet">
+		
+		
 
 
 
@@ -212,7 +215,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="text-center dupa">O nas</h2>
+						<h2 class="text-center">O nas</h2>
 					</div>
 					
 					<div class="col-md-6">
@@ -225,6 +228,82 @@
 					</div>
 				</div>
 			</div>
+		</section>
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 quality quality">
+					<div class="iconQuality">
+						<span class="icon">]</span>
+					</div>
+					<h3>
+						Opiekun
+					</h3>
+					<p>
+						Korzystając z naszych usług już na samym początku każdy klient ma przydzielonego opiekuna i towarzysz mu również po zakończeniu projektu. Macie Państwo bezpośredni kontakt z opiekunem na każdym etapie projektu, który będzie wspierał, wyjaśniał, odpowiadał na pytania i na bieżąco informował o etapach realizacji
+					</p>
+				</div>
+
+				<div class="col-md-6 quality">
+					<div class="iconQuality">
+						<span class="icon">#</span>
+					</div>
+					<h3>
+						Konkurencyjne ceny
+					</h3>
+					<p>
+						Każdy projekt wyceniamy indywidualnie, co pozwala nam zaoferować atrakcyjne i konkurencyjne ceny za wykonany projekt i zachować przy tym najwyższe standardy projektowania. 
+					</p>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col-md-6 quality">
+					<div class="iconQuality">
+						<span class="icon">1</span>
+					</div>
+					<h3>
+						Unikalne projekty
+					</h3>
+					<p>
+						Zawsze do każdego projektu podchodzimy indywidualnie, dzięki czemu pozwala nam to stworzyć strony z unikalne, funkcjonalne, czytelne i przejrzyste. Zadowolenie i satysfakcja klienta jest dla nas najważniejsza.
+					</p>
+				</div>
+
+				<div class="col-md-6 quality">
+					<div class="iconQuality">
+						<span class="icon">4</span>
+					</div>
+					<h3>
+						Kontakt
+					</h3>
+					<p>
+						Wiemy jak ważna jest komunikacja z klientem, dlatego też rozmowa z nami pozwoli jasno i solidnie określi oczekiwania i potrzeby. Również jesteśmy do Państwa dyspozycji 7 dni w tygodniu i udzielmy odpowiedz na pytania w ciągu 24h.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<section id="BackgroundContact">	
+			<footer class="container">
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<i class="fa fa-map-marker fa-inverse fa-5x"></i>
+						<h5>
+							Feniks Design Poznań, Wielkopolska
+					</h5>	
+					</div>
+					<div class="col-md-4 text-center">
+						<i class="fa fa-envelope fa-inverse fa-5x"></i>
+						<h5>kontakt@feniksdesign.pl</h5>
+					</div>
+					<div class="col-md-4 text-center">
+						<i class="fa fa-mobile fa-inverse fa-5x"></i>
+						<h5>+48 794 667 074</h5>
+					</div>
+				</div>
+			</footer>
 		</section>
 	</body>
 </html>
