@@ -1,4 +1,4 @@
-var gototop_icon = "img/arrow.png";
+var gototop_icon = "img/strzalka.png";
 var gototop_run = false;
 jQuery(window).scroll(function(){ //scrool
          

@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 @font-face {
   font-family: 'RaphaelIcons';
@@ -11,7 +11,7 @@
   font-style: normal;
 }
 
-.icon {
+.icon, .iconPepole, .iconDollar, .iconSmile, .iconWatch {
   font-weight: normal;
   font-style: normal;
   line-height: normal;

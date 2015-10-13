@@ -6766,9 +6766,47 @@ html {
 p {
   font-size: 1.6rem;
 }
-.top {
+.img-responsiveMY {
+  display: block;
+  max-width: 50%;
+  height: 60px;
+}
+#scroolTOP {
+  display: none;
+  position: fixed;
+  z-index: 99999;
+  right: 20px;
+  bottom: 20px;
+  border: 0px;
+}
+.gototop_icon_i {
+  width: 45px;
+  height: 45px;
+}
+#BackgroundAbout,
+#BackgroundQuality,
+#BackgroundContact {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 3.0rem;
+}
+#BackgroundNavbar {
+  position: relative;
+  margin-bottom: 20px;
+}
+#BackgroundAbout,
+#BackgroundContact {
+  background-color: #e33348;
+}
+#BackgroundAbout p,
+#BackgroundContact p {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+#top {
   border-bottom: 2px solid #756e75;
-  margin-bottom: .5rem;
+  margin-bottom: 3.0rem;
 }
 .phoneSocials {
   font-size: 2.0rem;
@@ -6781,12 +6819,21 @@ p {
   margin-left: .5rem;
   margin-top: .5rem;
 }
+.socialsIcon:hover {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
 .navbar {
-  background-color: transparent;
+  background-color: #e33348;
   border: none;
+  margin-top: 4.0rem;
 }
 .navbar .nav li {
   font-size: 1.7rem;
+  font-weight: bold;
 }
 .navbar .nav li a {
   color: black;
@@ -6794,8 +6841,42 @@ p {
   border-bottom: 2px solid transparent;
 }
 .navbar .nav li a:hover {
-  color: #e33348;
+  color: white;
   border-bottom: 2px solid #e33348;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: white;
+}
+.navbar-fixed-top {
+  padding: 0px;
+}
+.navbar-nav > li > .dropdown-menu {
+  background-color: #ededed;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 0px 0px 5px 3px black;
+  box-shadow: 0px 0px 5px 3px black;
+  position: absolute;
+}
+.navbar-nav > li > .dropdown-menu li a:hover {
+  color: #e33348;
+}
+.iconNav {
+  height: 3.0rem;
+  width: 3.0rem;
+  margin-right: 0.8rem;
+}
+.top-nav-collapse {
+  padding: 0;
+  margin-top: 0px;
+  -webkit-transition: all 0.5ms ease;
+  -moz-transition: all 0.5ms ease;
+  -ms-transition: all 0.5ms ease;
+  -o-transition: all 0.5ms ease;
+  transition: all 0.5ms ease;
 }
 .carousel-inner {
   margin-top: 4.0rem;
@@ -6856,27 +6937,14 @@ p {
   padding: .5rem 2.0rem;
   color: black;
 }
-#BackgroundAbout {
-  position: relative;
-  padding-bottom: 2.5rem;
-}
-#BackgroundAbout,
-#BackgroundContact {
-  background-color: #e33348;
-}
-#BackgroundAbout p,
-#BackgroundContact p {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-}
 .about {
   margin-top: 3.0rem;
 }
-.icon {
-  color: white;
-  font-size: 10rem;
-  line-height: auto;
+.qulaityMark,
+.contactHaid {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3.0rem;
 }
 .quality {
   text-align: center;
@@ -6884,15 +6952,128 @@ p {
 .quality p {
   text-align: justify;
 }
+.quality p h3 {
+  font-weight: bold;
+}
 .iconQuality {
-  background: #3a424d;
   text-align: center;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 128px;
+  height: 128px;
   padding: 1.6rem;
   margin-top: 20px;
-  margin-bottom: 35px;
-  -webkit-border-radius: 150px 150px 150px 150px;
-  border-radius: 150px 150px 150px 150px;
+  margin-bottom: 20px;
+}
+.contact {
+  text-align: center;
+}
+.contact iframe {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+}
+.contact h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.contactForm {
+  margin-top: 3.0rem;
+}
+.contactForm label {
+  display: block;
+  /* ustawiamy by label rozpoczynał się od nowej linii*/
+  margin-bottom: 5px;
+  /* dodajemy margines dolny */
+  font-weight: bold;
+  /* pogrubiamy czcionkę */
+  text-transform: uppercase;
+  /* zamieniamy wszystkie litery na duże */
+  font-size: 1.5rem;
+  /* ustawiamy wielkość czcionki */
+  color: black;
+  /* ustawiamy kolor czcionki */
+  font-family: 'Open Sans', sans-serif;
+}
+.contactForm textarea {
+  height: 150px;
+  width: 100%;
+  /* padding-bottom: 15px; */
+}
+.contactForm input {
+  padding: 5px;
+  /* dodajemy margines wewnątrz naszego pola */
+  border-radius: 3px;
+  /* dodajemy zaokraglone rogi */
+  border: 2px solid #ccc;
+  /* dodajemy obramowanie */
+  margin-bottom: 25px;
+  /* dodajemy margines dolny */
+  width: 100%;
+  /* ustalamy szerokość */
+}
+.contactForm input#submit {
+  width: 100%;
+  /* ustalamy szerokość */
+  cursor: pointer;
+  /* zmieniamy kursor */
+  margin-bottom: 40px;
+  /* resetujemy margines dolny */
+  margin-top: 15px;
+  font-size: 1.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.contactForm p.copy {
+  color: #555555;
+  /* ustawiamy kolor czcionki */
+  margin-bottom: 0px;
+  /* resetujemy margines dolny */
+  font-size: 12px;
+  /* ustawiamy rozmiar czcionki */
+  text-align: center;
+  /* wyśrodkowywujemy tekst */
+}
+.contactForm p.copy a {
+  color: #555555;
+  /* ustawiamy kolor czcionki */
+  text-decoration: none;
+  /* usuwamy podkreślenie linku */
+  font-weight: bold;
+  /* pogrubiamy czcionkę */
+}
+.mobileImg img {
+  width: 20%;
+  height: 40%;
+  margin-top: 2.5rem;
+}
+.menu {
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.buttonMenu {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.buttonMenu span {
+  padding: 2px;
+}
+.navbar-toggle {
+  background-color: #6add9a;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  margin-right: 55%;
+  margin-left: 45%;
+}
+.navbar-collapse .in {
+  text-align: center;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: black;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: white;
 }

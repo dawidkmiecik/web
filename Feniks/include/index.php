@@ -14,6 +14,10 @@
 		<link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
 		<link href="css/scrolling-nav.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		
+		
+
+
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<!-- Bootstrap Dropdown Hover JS -->
@@ -34,7 +38,7 @@
 		<script src="js/tooltip.js"></script>
 		<script src="js/transition.js"></script>
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".navbar-fixed-top">>
 		
 		<section id="top">
 			<div class="container">
@@ -103,52 +107,104 @@
 		
 		
 
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
+<!-- 		<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+	Brand and toggle get grouped for better mobile display
+		<div class="navbar-header page-scroll">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
 
-				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only"></span>
-						<div class="buttonMenu">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</div>
-						
-					</button>
-					
-				</div>
+			</button>
+			<a class="navbar-brand"  href="#"><img class="img-responsiveMY"src="img/logo.png" alt=""></a>
+		</div>
 
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		Collect the nav links, forms, and other content for toggling
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-					<ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="lightSpeedIn">
-						<li><a class="page-scroll" href="#top">Start</a></li>
-						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usługi<span class="caret"></span></a>
-						  <ul class="dropdown-menu">
-						    <li><a href="#"><img class="iconNav"src="img/web-nav.png" alt="">Strony internetowe</a></li>
-						    <li role="separator" class="divider"></li>
-						    <li><a href="#"><img class="iconNav"src="img/shop-nav.png" alt="">Sklepy internetowe</a></li>
-						    <li role="separator" class="divider"></li>
-						    <li><a href="#"><img class="iconNav" src="img/audit-nav.png" alt="">Audyty</a></li>
-						    <li role="separator" class="divider"></li>
-						    <li><a href="#"><img class="iconNav" src="img/marketing-nav.png" alt="">E-marketing</a></li>
-						  </ul>
-						</li>
-						<li><a class="page-scroll" href="#BackgroundAbout">O nas</a></li>
-						<li><a class="page-scroll" href="#BackgroundQuality">Jakość</a></li>
-						<li><a class="page-scroll" href="#BackgroundContact">Kontakt</a></li>
-					</ul>
-				</div><!-- navbar-collapse -->
-			</div><!-- container-fluid -->
-		</nav>
+			<ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="lightSpeedIn">
+				<li><a class="page-scroll" href="#top">Start</a></li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usługi<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+				    <li><a href="#"><img class="iconNav"src="img/web-nav.png" alt="">Strony internetowe</a></li>
+				    <li role="separator" class="divider"></li>
+				    <li><a href="#"><img class="iconNav"src="img/shop-nav.png" alt="">Sklepy internetowe</a></li>
+				    <li role="separator" class="divider"></li>
+				    <li><a href="#"><img class="iconNav" src="img/audit-nav.png" alt="">Audyty</a></li>
+				    <li role="separator" class="divider"></li>
+				    <li><a href="#"><img class="iconNav" src="img/marketing-nav.png" alt="">E-marketing</a></li>
+				  </ul>
+				</li>
+				<li><a class="page-scroll" href="#BackgroundAbout">O nas</a></li>
+				<li><a class="page-scroll" href="#BackgroundQuality">Jakość</a></li>
+				<li><a class="page-scroll" href="#BackgroundContact">Kontakt</a></li>
+			</ul>
+		</div>/.navbar-collapse
+	</div>/.container-fluid
+</nav> -->
 
+		    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="#top">Start</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usługi<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#"><img class="iconNav"src="img/web-nav.png" alt="">Strony internetowe</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><img class="iconNav"src="img/shop-nav.png" alt="">Sklepy internetowe</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><img class="iconNav" src="img/audit-nav.png" alt="">Audyty</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><img class="iconNav" src="img/marketing-nav.png" alt="">E-marketing</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#BackgroundAbout">O nas</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#BackgroundQuality">Jakość</a>
+                    </li>
+                    <li><a class="page-scroll" href="#BackgroundContact">Kontakt</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
 			<img class="img-responsive hidden-xs" src="img/slang.jpg" alt="">
 
 		<!-- Mobile Version instead Slider -->
-		<div class="container visible-sm-block visible-xs-block">
+		<div class="container hidden-md">
 			<div class="row">
 				<div class="col-sm-12 text-center">
 					<div class="mobileImg">
@@ -401,7 +457,7 @@
 							Kontakt
 						</h3>
 						<p>
-							Wiemy jak ważna jest komunikacja z klientem, dlatego też rozmowa z nami pozwoli jasno i solidnie określi oczekiwania i potrzeby. Również jesteśmy do Państwa dyspozycji 7 dni w tygodniu i udzielmy odpowiedz na pytania w &nbsp ciągu 24h.
+							Wiemy jak ważna jest komunikacja z klientem, dlatego też rozmowa z nami pozwoli jasno i solidnie określi oczekiwania i potrzeby. Również jesteśmy do Państwa dyspozycji 7 dni w tygodniu i udzielmy odpowiedz na pytania w ciągu 24h.
 						</p>
 					</div>
 				</div>
@@ -417,9 +473,7 @@
 					<div class="col-md-4 text-center contact">
 						<iframe src="img/mark-map-contact.svg" frameborder="0"></iframe>
 						<h5>
-							Feniks Design
-							<br />
-							Poznań, Wielkopolska
+							Feniks Design Poznań, Wielkopolska
 					</h5>	
 					</div>
 					<div class="col-md-4 text-center contact">

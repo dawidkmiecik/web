@@ -1,11 +1,13 @@
-
+// Menu zmienic już w css kolor żeby po kliknięciu dalej był biały, a nie jakiś szary
+// Menu zamienić w sub menu kolor biały na czerwony
 @IconColor: #3A424D;
 @IconColor2: rgb(58, 66, 77);
 @BackgroundColorRed:#e33348;
+@BackgroundBodyColor: #ededed;
 @Szary: #756e75;
 
 body {
-  background-color: #ededed;
+  background-color: @BackgroundBodyColor;
 }
 
 html {
@@ -16,11 +18,47 @@ p {
   font-size: 1.6rem;
 }
 
-// Socilas Icon Ruels
+.img-responsiveMY {
+  display: block;
+  max-width: 50%;
+  height: 60px;
+}
+// Arrow Top
+#scroolTOP { display: none;position: fixed; z-index:99999; right: 20px; bottom: 20px;border:0px; }
+.gototop_icon_i { width:45px;height:45px; }
+// Arrow Top END
 
-.top {
+// Background Section Color and Rules
+
+#BackgroundAbout, #BackgroundQuality, #BackgroundContact {
+   position: relative;
+   padding-top: 50px;
+   padding-bottom: 3.0rem;
+}
+
+#BackgroundNavbar {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+#BackgroundAbout, #BackgroundContact {
+  background-color: @BackgroundColorRed;
+  p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+  }
+
+}
+
+// Background Section Color and Ruels END
+
+// Socilas Icon Ruels and Top (numer)
+
+#top {
   border-bottom: 2px solid @Szary;
-  margin-bottom: .5rem;
+  margin-bottom: 3.0rem;
 }
 
 .phoneSocials {
@@ -33,32 +71,83 @@ p {
   width: 2.2rem;
   margin-left: .5rem;
   margin-top: .5rem;
+  &:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 }
 
-// Socilas Icon Ruels END
+// Socilas Icon Ruels and top (numer)END
 
 // Navbar Ruels
 
 .navbar {
-  background-color: transparent;
+  background-color: @BackgroundColorRed;
   border: none;
+  margin-top: 4.0rem;
   .nav{
     li {
     font-size: 1.7rem;
+    font-weight: bold;
 
       a {
         color: black;
         font-family: 'Open Sans', sans-serif;
         border-bottom: 2px solid transparent;
         &:hover {
-          color: @BackgroundColorRed;
+          color: white;
           border-bottom: 2px solid @BackgroundColorRed;
         }
       }
     }
   }
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-fixed-top {
+  padding: 0px;
+}
+.navbar-nav > li > .dropdown-menu {
+  background-color: @BackgroundBodyColor;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 0px 0px 5px 3px black;
+  box-shadow: 0px 0px 5px 3px black;
+  position: absolute;
+  li a:hover {
+     
+    color:@BackgroundColorRed;
+  }
 
 }
+  // Icon on offer hover
+  .iconNav {
+    height: 3.0rem;
+    width: 3.0rem;
+    margin-right: 0.8rem;
+  }// Icon on offer hover
+
+  // Scrolling Nav 
+  .top-nav-collapse {
+    padding: 0;
+    margin-top: 0px;
+    -webkit-transition: all 0.5ms ease;
+    -moz-transition: all 0.5ms ease;
+    -ms-transition: all 0.5ms ease;
+    -o-transition: all 0.5ms ease;
+    transition: all 0.5ms ease;
+  } // Scrolling Nav END
+
+// Navbar Ruels END
 
 //Carousel Rules
 
@@ -132,58 +221,175 @@ p {
 
 // Carousel Rules END
 
-// Background Section Color and Rules
-
-#BackgroundAbout {
-   position: relative;
-   padding-bottom: 2.5rem;
-}
-
-#BackgroundAbout, #BackgroundContact {
-  background-color: @BackgroundColorRed;
-  p {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-  }
-
-}
-
-// Background Section Color and Ruels END
+// About Section Ruels
 
 .about {
   margin-top: 3.0rem;
 
 }
+// About Section Ruels END
 
+// Quality ruels
 
-// Mark ruels
-
-.icon {
-  color: white;
-  font-size: 10rem;
-  line-height: auto;
-}
+  // Quality header and contact header rules
+  .qulaityMark, .contactHaid {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 3.0rem;
+  }
+  // Quality header and contact header rules
 
 .quality {
   text-align: center;
   p {
     text-align: justify;
+    h3 {
+      font-weight: bold;
+    }
   }
 }
 
 .iconQuality {
-  background: @IconColor2;
+
   text-align: center;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 128px;
+  height: 128px;
   padding: 1.6rem;
   margin-top: 20px;
-  margin-bottom: 35px;
-  -webkit-border-radius: 150px 150px 150px 150px;
-  border-radius: 150px 150px 150px 150px;
+  margin-bottom: 20px;
 }
 
-// Mark Ruels END
+// Quality Ruels END
 
+// Contact Rules 
+
+.contact {
+  text-align: center;
+  
+  iframe {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+  }
+  h5 {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+     font-size: 1.8rem;
+     text-align: center;
+  }
+}
+
+.contactForm {
+  margin-top: 3.0rem;
+  label {
+    display: block;
+    /* ustawiamy by label rozpoczynał się od nowej linii*/
+    margin-bottom: 5px;
+    /* dodajemy margines dolny */
+    font-weight: bold;
+    /* pogrubiamy czcionkę */
+    text-transform: uppercase;
+    /* zamieniamy wszystkie litery na duże */
+    font-size: 1.5rem;
+    /* ustawiamy wielkość czcionki */
+    color: black;
+    /* ustawiamy kolor czcionki */
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+.contactForm textarea {
+  height: 150px;
+  width: 100%;
+  /* padding-bottom: 15px; */
+}
+.contactForm input {
+  padding: 5px;
+  /* dodajemy margines wewnątrz naszego pola */
+  border-radius: 3px;
+  /* dodajemy zaokraglone rogi */
+  border: 2px solid #ccc;
+  /* dodajemy obramowanie */
+  margin-bottom: 25px;
+  /* dodajemy margines dolny */
+  width: 100%;
+  /* ustalamy szerokość */
+}
+.contactForm input#submit {
+  width: 100%;
+  /* ustalamy szerokość */
+  cursor: pointer;
+  /* zmieniamy kursor */
+  margin-bottom: 40px;
+  /* resetujemy margines dolny */
+  margin-top: 15px;
+  font-size: 1.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.contactForm p.copy {
+  color: #555555;
+  /* ustawiamy kolor czcionki */
+  margin-bottom: 0px;
+  /* resetujemy margines dolny */
+  font-size: 12px;
+  /* ustawiamy rozmiar czcionki */
+  text-align: center;
+  /* wyśrodkowywujemy tekst */
+}
+.contactForm p.copy a {
+  color: #555555;
+  /* ustawiamy kolor czcionki */
+  text-decoration: none;
+  /* usuwamy podkreślenie linku */
+  font-weight: bold;
+  /* pogrubiamy czcionkę */
+}
+
+
+// Mobile Styles 
+
+//Mobile Version instead Slider
+
+.mobileImg {
+  img {
+    width: 20%;
+    height: 40%;
+    margin-top: 2.5rem;
+  }
+}
+
+.menu {
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.buttonMenu {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  span {
+    padding: 2px;
+  }
+}
+
+.navbar-toggle {
+  background-color: lighten(#40D47E, 10%);
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  margin-right: 55%;
+  margin-left: 45%;
+
+}
+
+.navbar-collapse .in {
+  text-align: center;
+} 
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: black;
+  &:hover {
+    color: white;
+  }
+}
