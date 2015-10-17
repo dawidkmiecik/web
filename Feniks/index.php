@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Feniks Design Studio</title>
 
-		<link href="css/fonts.css" rel="stylesheet">
+		
 		 <!-- Icon -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		 <!-- Bootstrap Dropdown Hover CSS -->
@@ -14,7 +14,8 @@
 		<link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
 		<link href="css/scrolling-nav.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-
+		<link href="css/fonts.css" rel="stylesheet">
+		
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<!-- Bootstrap Dropdown Hover JS -->
 		<script src="js/bootstrap-dropdownhover.min.js"></script>
@@ -22,17 +23,9 @@
 		<script src="js/scrolling-nav.js"></script>
 		<script src="js/jquery.functions.js"></script>
 		<script src="js/transition.js"></script>
-		<script src="js/affix.js"></script>
-		<script src="js/alert.js"></script>
 		<script src="js/button.js"></script>
 		<script src="js/carousel.js"></script>
-		<script src="js/collapse.js"></script>
-		<script src="js/modal.js"></script>
-		<script src="js/popover.js"></script>
-		<script src="js/dropdown.js"></script>
-		<script src="js/tab.js"></script>
-		<script src="js/tooltip.js"></script>
-		<script src="js/transition.js"></script>
+
 	</head>
 	<body>
 		
@@ -51,58 +44,7 @@
 				</div>
 			</div>
 		</section>
-		
-<!-- 		<div class="container">
-	<div class="row">
-</div>
-<section id="BackgroundNavbar" class="visible-xs-block">
-	<div class="container">
-		<div class="row">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-			Brand and toggle get grouped for better mobile display
-				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand"  href="#"><img class="img-responsiveMY"src="img/logo.png" alt=""></a>
-				</div>
-
-				Collect the nav links, forms, and other content for toggling
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-					<ul class="nav navbar-nav navbar-right">
-						<li><a class="page-scroll" href="#top">Start</a></li>
-						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usługi<span class="caret"></span></a>
-						  <ul class="dropdown-menu">
-						    <li><a href="#"><img class="iconNav"src="img/web-nav.png" alt="">Strony internetowe</a></li>
-						    <li role="separator" class="divider"></li>
-						    <li><a href="#"><img class="iconNav"src="img/shop-nav.png" alt="">Sklepy internetowe</a></li>
-						    <li role="separator" class="divider"></li>
-						    <li><a href="#"><img class="iconNav" src="img/audit-nav.png" alt="">Audyty</a></li>
-						    <li role="separator" class="divider"></li>
-						    <li><a href="#"><img class="iconNav" src="img/marketing-nav.png" alt="">E-marketing</a></li>
-						  </ul>
-						</li>
-						<li><a class="page-scroll" href="#BackgroundAbout">O nas</a></li>
-						<li><a class="page-scroll" href="#BackgroundQuality">Jakość</a></li>
-						<li><a class="page-scroll" href="#BackgroundContact">Kontakt</a></li>
-					</ul>
-				</div>/.navbar-collapse
-			</div>/.container-fluid
-		</nav>
-		</div>
-	</div>
-</section>
-</div>
-</div> -->
-		
-		
-
+	
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
 
@@ -114,16 +56,15 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</div>
-						
 					</button>
-					
+					<a href="www.feniksdesign.pl"><img class="img-responsiveLogo hidden-xs" src="img/logo-feniks.png" alt=""><h1 class="hidden">Feniks Design Studio</h1></a>	
 				</div>
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 					<ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="lightSpeedIn">
 						<li><a class="page-scroll" href="#top">Start</a></li>
-						<li class="dropdown">
+						<!-- 						<li class="dropdown">
 						  <a href="#" class="dropdown-toggle"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usługi<span class="caret"></span></a>
 						  <ul class="dropdown-menu">
 						    <li><a href="#"><img class="iconNav"src="img/web-nav.png" alt="">Strony internetowe</a></li>
@@ -134,7 +75,7 @@
 						    <li role="separator" class="divider"></li>
 						    <li><a href="#"><img class="iconNav" src="img/marketing-nav.png" alt="">E-marketing</a></li>
 						  </ul>
-						</li>
+						</li> -->
 						<li><a class="page-scroll" href="#BackgroundAbout">O nas</a></li>
 						<li><a class="page-scroll" href="#BackgroundQuality">Jakość</a></li>
 						<li><a class="page-scroll" href="#BackgroundContact">Kontakt</a></li>
@@ -157,7 +98,9 @@
 					<h3>
 						Strony internetowe
 					</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere itaque totam earum voluptate accusamus, quos eos illum error. Ipsam nesciunt recusandae beatae fugit cum! Eligendi asperiores at dicta ratione beatae?</p>
+					<p>
+						Z nami Twoja firma zyska swoje miejsce w sieci, które pomoże klientom w wyborze właśnie Twojego produktu czy usługi. Będzie Twoją wizytówką w internecie,  miejscem gdzie klient uzyska wszelkie potrzebne  informację, które pomogą mu w dokonaniu wyboru. Z naszym wsparciem, doświadczeniem i zaangażowanie Twoja firma będzie się wspinać na wżyny. Oczwyście gwarantujemy również szkolenie z zakresu obługi klienta, jak i prowadzenia strony.
+					</p>
 				</div>
 
 				<div class="col-sm-12 text-center">
@@ -167,7 +110,9 @@
 					<h3>
 						Sklepy internetowe
 					</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem iusto illum vel unde deleniti nulla aliquam! At sunt, consequatur hic voluptas debitis sint veritatis dolores unde, laborum neque, vero ea.</p>
+					<p>
+						Założenie sklepu internetowego nigdy nie było prostsze. Dzięki naszemu doświadczeniu oraz wiedzy z e-commerce, Twój produkt będzie dostępny dla szerokiego grona odbiorców. Z nami Twój sklep będzie miał dużą konwersję zakupów i tysiące zadowolonych klientów. Dbamy o każdy detal, bo to szczegóły decydują o sukcesie sklepu.
+					</p>
 				</div>
 
 				<div class="col-sm-12 text-center">
@@ -177,7 +122,11 @@
 					<h3>
 						Audyty
 					</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe suscipit tempore sunt repudiandae repellat perferendis rerum, velit nisi magnam fugit provident id at quidem dolorem molestias nobis exercitationem laudantium in.</p>
+					<p>
+						Spada Ci sprzedaż ? Coraz mnie ludzi wchodzi na Twoją stronę ?
+						Wiele sklepów i stron internetowych, ofert na allegro zawiera błędy, które skutecznie zmieniszają konwersję zakupów czy pożądanej akcji.
+						Dzięki naszemu audytowi pozowlimy Ci wyelminować błedy i ustrzec się przed popełniniem innych, co automatycznie zwiększy sprzedaż Twójego produktu czy usługi. Przeszkolimy również Ciebie i Twoich pracowników.
+					</p>
 				</div>
 
 				<div class="col-sm-12 text-center">
@@ -187,7 +136,9 @@
 					<h3>
 						E-marketing
 					</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, error nesciunt odio porro, ducimus placeat quas voluptatem impedit laboriosam officia minus excepturi distinctio. Possimus reiciendis quis, illum, magni magnam commodi.</p>
+					<p>
+						Marzysz o tym, żeby dotrzeć do szerokiego grona potencjalnych klientów i masz przy tym ograniczone środki ? Chciałbyś aby Twój serwis zaczął nabierać na popularności ? Z nami jest to możliwe, jesteśmy gotowi specjalnie dla Ciebie przygotować odpowiednią kampanię internetową czy prowadzić fanpge lub wypozycjonować stornę.
+					</p>
 				</div>
 
 			</div>
@@ -242,9 +193,9 @@
 								Strony internetowe
 							</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident in voluptatibus placeat aspernatur temporibus, voluptatum, cupiditate quia, quasi vero officiis natus optio voluptates culpa ullam possimus. Velit voluptas iste numquam, ipsa, ex adipisci corrupti doloribus in quibusdam dignissimos, ad distinctio quasi sequi quod quo minima. Assumenda consectetur necessitatibus iusto aliquid!
+								Z nami Twoja firma zyska swoje miejsce w sieci, które pomoże klientom w wyborze właśnie Twojego produktu czy usługi. Będzie Twoją wizytówką w internecie,  miejscem gdzie klient uzyska wszelkie potrzebne  informację, które pomogą mu w dokonaniu wyboru. Z naszym wsparciem, doświadczeniem i zaangażowanie Twoja firma będzie się wspinać na wżyny. Oczwyście gwarantujemy również szkolenie z zakresu obługi klienta, &nbspjak i prowadzenia strony.
 							</p>
-								<a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a>
+								<!-- <a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a> -->
 						</div>
 					</div>
 				</div>
@@ -261,9 +212,9 @@
 								Sklepy internetowe
 							</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident in voluptatibus placeat aspernatur temporibus, voluptatum, cupiditate quia, quasi vero officiis natus optio voluptates culpa ullam possimus. Velit voluptas iste numquam, ipsa, ex adipisci corrupti doloribus in quibusdam dignissimos, ad distinctio quasi sequi quod quo minima. Assumenda consectetur necessitatibus iusto aliquid!
+								Założenie sklepu internetowego nigdy nie było prostsze. Dzięki naszemu doświadczeniu oraz wiedzy z e-commerce, Twój produkt będzie dostępny dla szerokiego grona odbiorców. Z nami Twój sklep będzie miał dużą konwersję zakupów i tysiące zadowolonych klientów. Dbamy o każdy detal, bo to szczegóły decydują o sukcesie sklepu. 
 							</p>
-								<a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a>
+								<!-- <a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a> -->
 						</div>
 					</div>
 				</div>
@@ -280,9 +231,11 @@
 								Audyty
 							</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident in voluptatibus placeat aspernatur temporibus, voluptatum, cupiditate quia, quasi vero officiis natus optio voluptates culpa ullam possimus. Velit voluptas iste numquam, ipsa, ex adipisci corrupti doloribus in quibusdam dignissimos, ad distinctio quasi sequi quod quo minima. Assumenda consectetur necessitatibus iusto aliquid!
+								Spada Ci sprzedaż ? Coraz mnie ludzi wchodzi na Twoją stronę ?
+								Wiele sklepów i stron internetowych, ofert na allegro zawiera błędy, które skutecznie zmieniszają konwersję zakupów czy pożądanej akcji.
+								Dzięki naszemu audytowi pozowlimy Ci wyelminować błedy i ustrzec się przed popełniniem innych, co automatycznie zwiększy sprzedaż Twójego produktu czy usługi. Przeszkolimy również Ciebie i Twoich pracowników.
 							</p>
-								<a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a>
+								<!-- <a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a> -->
 						</div>
 					</div>
 				</div>
@@ -299,9 +252,9 @@
 								E-marketing
 							</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident in voluptatibus placeat aspernatur temporibus, voluptatum, cupiditate quia, quasi vero officiis natus optio voluptates culpa ullam possimus. Velit voluptas iste numquam, ipsa, ex adipisci corrupti doloribus in quibusdam dignissimos, ad distinctio quasi sequi quod quo minima. Assumenda consectetur necessitatibus iusto aliquid!
+								Marzysz o tym, żeby dotrzeć do szerokiego grona potencjalnych klientów i masz przy tym ograniczone środki ? Chciałbyś aby Twój serwis zaczął nabierać na popularności ? Z nami jest to możliwe, jesteśmy gotowi specjalnie dla Ciebie przygotować odpowiednią kampanię internetową czy prowadzić fanpge lub wypozycjonować stornę.
 							</p>
-								<a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a>
+								<!-- <a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a> -->
 						</div>
 					</div>
 				</div>
@@ -335,7 +288,9 @@
 					</div>
 					<div class="col-md-6 col-sm-6 about">
 						<p class="aboutText">
-							Nasze początki sięgają 2010 roku. Od tego mometu tworzymy zgrany i kreatwyny zespół, który projektuje i tworzy strony internetowe przy zachowaniu najwyższych standartów. Do każdego projektu podchodzimy indywidualnie i słuchamy naszych klientów. Przy projektowaniu kierujemy się najnowszymi trendami w internecie oraz technologiami. 
+							Nasze początki sięgają 2010 roku. 
+							<br />
+							Od tego mometu tworzymy zgrany i kreatwyny zespół, który projektuje i tworzy strony internetowe przy zachowaniu najwyższych standartów. Do każdego projektu podchodzimy indywidualnie i słuchamy naszych klientów. Przy projektowaniu kierujemy się najnowszymi trendami w internecie oraz technologiami. 
 							<br />
 							<br />
 							Potrafimy dostosować stronę klieta do tego w jakie branży działa, zachowując przy tym estyczność, funkcjonalość i czytelność. Nasze strony są responsywne, co w dobie rosnący urządzeń mobilnych jest nie odłączym elementem, każdej witryny. Zawsze stawiamy na zadowolenie i statysfackje klienta.
@@ -401,7 +356,7 @@
 							Kontakt
 						</h3>
 						<p>
-							Wiemy jak ważna jest komunikacja z klientem, dlatego też rozmowa z nami pozwoli jasno i solidnie określi oczekiwania i potrzeby. Również jesteśmy do Państwa dyspozycji 7 dni w tygodniu i udzielmy odpowiedz na pytania w &nbsp ciągu 24h.
+							Wiemy jak ważna jest komunikacja z klientem, dlatego też rozmowa z nami pozwoli jasno i solidnie określi oczekiwania i potrzeby. Również jesteśmy do Państwa dyspozycji 7 dni w tygodniu i udzielmy odpowiedz na pytania w&nbspciągu 24h.
 						</p>
 					</div>
 				</div>

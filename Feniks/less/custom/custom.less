@@ -18,6 +18,13 @@ p {
   font-size: 1.6rem;
 }
 
+.img-responsiveLogo {
+  height: 4.5rem;
+  top: 0;
+  position: relative;
+  left: 0;
+}
+
 .img-responsiveMY {
   display: block;
   max-width: 50%;
@@ -57,7 +64,6 @@ p {
 // Socilas Icon Ruels and Top (numer)
 
 #top {
-  border-bottom: 2px solid @Szary;
   margin-bottom: 3.0rem;
 }
 
@@ -85,7 +91,7 @@ p {
 // Navbar Ruels
 
 .navbar {
-  background-color: @BackgroundColorRed;
+  background-color: @BackgroundBodyColor;
   border: none;
   margin-top: 4.0rem;
   .nav{
@@ -98,7 +104,7 @@ p {
         font-family: 'Open Sans', sans-serif;
         border-bottom: 2px solid transparent;
         &:hover {
-          color: white;
+          color: darken(white, 50%);
           border-bottom: 2px solid @BackgroundColorRed;
         }
       }
@@ -110,7 +116,7 @@ p {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
-  color: white;
+  color: darken(white, 50%);
 }
 
 .navbar-fixed-top {
@@ -140,11 +146,11 @@ p {
   .top-nav-collapse {
     padding: 0;
     margin-top: 0px;
-    -webkit-transition: all 0.5ms ease;
-    -moz-transition: all 0.5ms ease;
-    -ms-transition: all 0.5ms ease;
-    -o-transition: all 0.5ms ease;
-    transition: all 0.5ms ease;
+    -webkit-transition: all 0.50ms ease;
+    -moz-transition: all 0.50ms ease;
+    -ms-transition: all 0.50ms ease;
+    -o-transition: all 0.50ms ease;
+    transition: all 0.50ms ease;
   } // Scrolling Nav END
 
 // Navbar Ruels END
@@ -200,7 +206,7 @@ p {
 }
 
 .active .audit{
-  background-image: url(../img/shop-dark.png);
+  background-image: url(../img/audit-dark.png);
 
 }
 
