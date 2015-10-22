@@ -37,8 +37,8 @@
 						<img class="socialsIcon pull-right" src="img/phone.png" alt="">
 						
 
-						<a href=""><img class="socialsIcon"src="img/facebook.png" alt="facebook"></a>
-						<a href=""><img class="socialsIcon"src="img/google.png" alt="googleplus"></a>
+						<a href="https://www.facebook.com/FeniksDesignPoznan" target="_blank"><img class="socialsIcon" src="img/facebook.png" alt="facebook"></a>
+						<a href=""><img class="socialsIcon" src="img/google.png" alt="googleplus"></a>
 
 					</div>
 				</div>
@@ -51,13 +51,13 @@
 				<div class="navbar-header page-scroll">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 						<span class="sr-only"></span>
-						<div class="buttonMenu">
+						<span class="buttonMenu">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
-						</div>
+						</span>
 					</button>
-					<a href="www.feniksdesign.pl"><img class="img-responsiveLogo hidden-xs" src="img/logo-feniks.png" alt=""><h1 class="hidden">Feniks Design Studio</h1></a>	
+					<a href="index.php"><img class="img-responsiveLogo hidden-xs" src="img/logo-feniks.png" alt=""><h1 class="hidden">Feniks Design Studio</h1></a>	
 				</div>
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -193,7 +193,7 @@
 								Strony internetowe
 							</h1>
 							<p>
-								Z nami Twoja firma zyska swoje miejsce w sieci, które pomoże klientom w wyborze właśnie Twojego produktu czy usługi. Będzie Twoją wizytówką w internecie,  miejscem gdzie klient uzyska wszelkie potrzebne  informację, które pomogą mu w dokonaniu wyboru. Z naszym wsparciem, doświadczeniem i zaangażowanie Twoja firma będzie się wspinać na wżyny. Oczwyście gwarantujemy również szkolenie z zakresu obługi klienta, &nbspjak i prowadzenia strony.
+								Z nami Twoja firma zyska swoje miejsce w sieci, które pomoże klientom w wyborze właśnie Twojego produktu czy usługi. Będzie Twoją wizytówką w internecie,  miejscem gdzie klient uzyska wszelkie potrzebne  informację, które pomogą mu w dokonaniu wyboru. Z naszym wsparciem, doświadczeniem i zaangażowanie Twoja firma będzie się wspinać na wżyny. Oczwyście gwarantujemy również szkolenie z zakresu obługi klienta, &nbsp jak i prowadzenia strony.
 							</p>
 								<!-- <a href=""><button type="button" class="btn btn-style btn-lg">Więcej</button></a> -->
 						</div>
@@ -310,7 +310,6 @@
 					<div class="col-md-6 quality quality">
 						<div class="iconQuality">
 							<iframe src="img/gurdian-mark.svg" frameborder="0"></iframe>
-							<!-- <span class="iconPepole">]</span> -->
 						</div>
 						<h3>
 							Opiekun
@@ -356,7 +355,7 @@
 							Kontakt
 						</h3>
 						<p>
-							Wiemy jak ważna jest komunikacja z klientem, dlatego też rozmowa z nami pozwoli jasno i solidnie określi oczekiwania i potrzeby. Również jesteśmy do Państwa dyspozycji 7 dni w tygodniu i udzielmy odpowiedz na pytania w&nbspciągu 24h.
+							Wiemy jak ważna jest komunikacja z klientem, dlatego też rozmowa z nami pozwoli jasno i solidnie określi oczekiwania i potrzeby. Również jesteśmy do Państwa dyspozycji 7 dni w tygodniu i udzielmy odpowiedz na pytania w &nbspciągu 24h.
 						</p>
 					</div>
 				</div>
@@ -387,8 +386,8 @@
 					</div>
 				</div>
 				<div class="col-md-12">
-					<div class="contactForm" class="padding-bottom">
-						<form method="post" action="include/main/enrollment.php">
+					<div class="contactForm">
+						<form method="post" action="enrollment.php">
 							<div class="col-sm-6 hidden-xs">
 								<label>Imię i nazwisko</label>
 								<input name="name" placeholder="Twoje imie i nazwisko">
@@ -401,7 +400,7 @@
 
 							<div class="col-sm-6">
 								<label>Telefon</label>
-								<input name="phone" type="phone" placeholder="Twój numer telefonu">
+								<input name="number" type="number" placeholder="Twój numer telefonu">
 							</div>
 
 							<div class="col-sm-6 hidden-xs">
@@ -418,6 +417,7 @@
 							</div>
 						</form>
 					</div>
+				</div>
 			</footer>
 		</section>
 	</body>
