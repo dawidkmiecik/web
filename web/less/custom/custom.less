@@ -1,0 +1,338 @@
+// Menu zmienic już w css kolor żeby po kliknięciu dalej był biały, a nie jakiś szary
+// Menu zamienić w sub menu kolor biały na czerwony
+@IconColor: #3A424D;
+@IconColor2: rgb(58, 66, 77);
+@BackgroundColorRed:#e33348;
+@BackgroundBodyColor: #ededed;
+@BackgroundColorWhite: white;
+@Szary: #756e75;
+
+// General Style Rules
+
+body {
+  background-color: @BackgroundBodyColor;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3.0rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+
+// General Style Rules END
+
+.img-responsiveLogo {
+  height: 4.5rem;
+  top: 0;
+  position: relative;
+  left: 0;
+}
+
+.img-responsiveMY {
+  display: block;
+  max-width: 50%;
+  height: 60px;
+}
+// Arrow Top
+#scroolTOP { display: none;position: fixed; z-index:99999; right: 20px; bottom: 20px;border:0px; }
+.gototop_icon_i { width:45px;height:45px; }
+// Arrow Top END
+
+// Socilas Icon Ruels and Top (numer)
+
+#top {
+  margin-bottom: 3.0rem;
+}
+
+.phoneSocials {
+  font-size: 2.0rem;
+  margin-top: 0.2rem;
+  margin-left: 0.5rem
+}
+.socialsIcon {
+  height: 2.2rem; 
+  width: 2.2rem;
+  margin-left: .5rem;
+  margin-top: .5rem;
+  &:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+
+// Socilas Icon Ruels and top (numer)END
+
+// Navbar Ruels
+
+.navbar {
+  background-color: @BackgroundBodyColor;
+  border: none;
+  margin-top: 4.0rem;
+  .nav{
+    li {
+    font-size: 1.7rem;
+    font-weight: bold;
+
+      a {
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        border-bottom: 2px solid transparent;
+        &:hover {
+          color: darken(white, 50%);
+          border-bottom: 2px solid @BackgroundColorRed;
+        }
+      }
+    }
+  }
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: darken(white, 50%);
+}
+
+.navbar-fixed-top {
+  padding: 0px;
+}
+.navbar-nav > li > .dropdown-menu {
+  background-color: @BackgroundBodyColor;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 0px 0px 5px 3px black;
+  box-shadow: 0px 0px 5px 3px black;
+  position: absolute;
+  li a:hover {
+     
+    color:@BackgroundColorRed;
+  }
+
+}
+  // Icon on offer hover
+  .iconNav {
+    height: 3.0rem;
+    width: 3.0rem;
+    margin-right: 0.8rem;
+  }// Icon on offer hover
+
+  // Scrolling Nav 
+  .top-nav-collapse {
+    padding: 0;
+    margin-top: 0px;
+    -webkit-transition: all 0.50ms ease;
+    -moz-transition: all 0.50ms ease;
+    -ms-transition: all 0.50ms ease;
+    -o-transition: all 0.50ms ease;
+    transition: all 0.50ms ease;
+  } // Scrolling Nav END
+
+// Navbar Ruels END
+
+//Carousel Rules
+
+
+//Mobile Version instead Slider
+
+.mobileImg {
+  img {
+    width: 20%;
+    height: 40%;
+    margin-top: 2.5rem;
+  }
+}
+
+.menu {
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.buttonMenu {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  span {
+    padding: 2px;
+  }
+}
+
+.navbar-toggle {
+  background-color: lighten(#40D47E, 10%);
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  margin-right: 55%;
+  margin-left: 45%;
+
+}
+
+.navbar-collapse .in {
+  text-align: center;
+} 
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: black;
+  &:hover {
+    color: white;
+  }
+}
+
+//Mobile Version instead Slider END
+
+// Caorusel Style
+#owl-demo {
+  margin-top: 6.0rem;
+  .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 85.8vh;
+  }
+}
+
+/* #owl-demo  */
+
+
+h3 {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Lato';
+  font-weight: 800;
+  color: #3cbabe;
+  overflow: hidden;
+  font-size: 3em; }
+
+ .active {
+
+h3 {
+  position: absolute;
+  overflow: visible;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-family: 'Lato';
+  font-weight: 800;
+  color: #3cbabe;
+  font-size: 3em; }
+  h3 .letter {
+    transform: scale(0);
+    animation: pop-up .25s forwards; }
+    h3 .letter:nth-child(1) {
+      animation-delay: 0.1s; }
+    h3 .letter:nth-child(2) {
+      animation-delay: 0.15s; }
+    h3 .letter:nth-child(3) {
+      animation-delay: 0.2s; }
+    h3 .letter:nth-child(4) {
+      animation-delay: 0.25s; }
+    h3 .letter:nth-child(5) {
+      animation-delay: 0.30s; }
+    h3 .letter:nth-child(6) {
+      animation-delay: 0.35s; }
+    h3 .letter:nth-child(7) {
+      animation-delay: 0.40s; }
+    h3 .letter:nth-child(8) {
+      animation-delay: 0.45s; }
+    h3 .letter:nth-child(9) {
+      animation-delay: 0.50s; }
+    h3 .letter:nth-child(10) {
+      animation-delay: 0.55s; }
+    h3 .letter:nth-child(11) {
+      animation-delay: 0.60s; }
+    h3 .letter:nth-child(12) {
+      animation-delay: 0.65s; }
+    h3 .letter:nth-child(13) {
+      animation-delay: 0.7s; }
+    h3 .letter.heart {
+      line-height: 1.25em; }
+
+@keyframes pop-up {
+  0% {
+    transform: scale(0) translateY(-10px);
+    opacity: 0; }
+  80% {
+    transform: scale(1.2) translateY(-2px);
+    opacity: .8; }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1; } }
+}
+
+.owl-controls {
+  position: absolute;
+  bottom: 6.0rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.active .bar {
+  position: absolute;
+  background: rgba(250, 250, 250, 0.5);
+  height: 2.0rem;
+  bottom: 0rem;
+  animation: progres 5.9s infinite linear;
+  -webkit-animation: progres 5.9s infinite linear;
+}
+
+@keyframes progres {
+  0% {width: 0%;}
+  100% {width: 100%;}
+}
+
+@-webkit-keyframes progres {
+  0% {width: 0%;}
+  100% {width: 100%;}
+}
+
+// Caorusel Style END
+
+// Technology Style 
+
+#technology {
+  background-color: @BackgroundBodyColor;
+  padding-top: 50px;
+  //background-color: //darken(@BackgroundColorWhite, 10%)
+}
+
+.imgTechnology {
+  max-height: 13rem;
+  margin-top: 3.0rem;
+  margin-bottom: 3.0rem;
+}
+
+.contentTechnology {
+  p {
+    text-align: justify;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 3.0rem;
+  }
+}
