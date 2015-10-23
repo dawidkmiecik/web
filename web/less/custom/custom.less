@@ -336,3 +336,173 @@ h3 {
     margin-bottom: 3.0rem;
   }
 }
+
+#offer {
+  height: 100vh;
+  width:100%;
+  padding-top: 50px;
+  background-color: #d7eef4; 
+}
+
+
+.dupa {
+  background:  url("../img/cloud.png") repeat-x 0% 0%;
+  background-size: 100px 48.5px;
+  height: 100%;
+  animation: 10s infinite cloud1 linear;
+  -webkit-animation: 10s infinite cloud1 linear;
+  padding: 0px;
+}
+
+.dupa2 {
+background: url("../img/cloud.png") repeat-x left 80%;
+background-size: 150px 72.75px;
+height: 100%;
+animation: 7.5s infinite cloud2 linear;
+-webkit-animation: 7.5s infinite cloud2 linear;
+}
+ 
+.dupa3 {
+height: 100%;
+}
+
+@keyframes cloud1 {
+    from { background-position: 0% 5%; }
+    to { background-position: 100px 5%; }
+}
+
+@keyframes cloud2 {
+    from { background-position: 0 10%; }
+    to { background-position: 150px 10%; }
+}
+
+@keyframes cloud3 {
+    from { background-position: 0 15%; }
+    to { background-position: 200px 15%; }
+}
+
+@-webkit-keyframes cloud1 {
+    from { background-position: 0% 5%; }
+    to { background-position: 100px 5%; }
+}
+
+@-webkit-keyframes cloud2 {
+    from { background-position: 0 10%; }
+    to { background-position: 150px 10%; }
+}
+
+@-webkit-keyframes cloud3 {
+    from { background-position: 0 15%; }
+    to { background-position: 200px 15%; }
+}
+
+
+
+.dupa4 img {
+    -webkit-animation: 10s infinite rocket; 
+    position: absolute;
+    height: 20%;
+    width: 7%;
+    top: 70%;
+    left: 0%;
+
+}
+
+
+
+ @-webkit-keyframes rocket {
+ 
+    0% {
+    animation-timing-function: ease;
+
+    }
+ 
+    25% {
+    animation-timing-function: ease;
+    left: 90%;
+    top: 70%;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    }
+ 
+    50% {
+    animation-timing-function: ease;
+    left: 50%;
+    top: 0%;
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    }
+ 
+    75% {
+    animation-timing-function: ease-in;
+    top: 70%;
+    left: 0%;
+    }
+ 
+    100% {
+    }
+ 
+}
+
+
+/* @-webkit-keyframes rocekt {
+ 
+    0% {
+    animation-timing-function: ease-out;
+    width: 160px;
+    height: 160px;
+    margin: -80px 0 0 -80px;
+    }
+ 
+    15% {
+    animation-timing-function: ease;
+    left: 75%;
+    top: 50%;
+    width: 160px;
+    height: 160px;
+    margin: -80px 0 0 -80px;
+    }
+ 
+    50% {
+    animation-timing-function: ease;
+    left: 50%;
+    top: 25%;
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
+    }
+ 
+    85% {
+    animation-timing-function: ease-in;
+    left: 25%;
+    top: 50%;
+    width: 160px;
+    height: 160px;
+    margin: -80px 0 0 -80px;
+    }
+ 
+    100% {
+    left: 50%;
+    width: 160px;
+    height: 160px;
+    margin: -80px 0 0 -80px;
+    }
+ 
+}  */
+
+/* .clouds2 {
+  height: 100px;
+  background: url("../img/cloud.png") repeat-x left 80%;
+  background-size: 150px 72.75px;
+}
+
+.clouds  {
+height: 100px;
+background: url("../img/cloud.png") repeat-x left 90%;
+} */

@@ -69,7 +69,7 @@
 					<ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="lightSpeedIn">
 						<li><a class="page-scroll" href="#top">Start</a></li>
 						<li><a class="page-scroll" href="#technology">Technologie</a></li>
-						<li><a class="page-scroll" href="#BackgroundQuality">Pytania</a></li>
+						<li><a class="page-scroll" href="#offer">Pytania</a></li>
 						<li><a class="page-scroll" href="#BackgroundContact">Kontakt</a></li>
 					</ul>
 				</div><!-- navbar-collapse -->
@@ -165,5 +165,14 @@
 			</div><!-- container -->
 		</section> 
 
+		<section id="offer">
+			<div class="container dupa">
+				<div class="row dupa2">
+					<div class="col-md-12 dupa3">
+						<span class="dupa4"><img src="img/rocket.gif" alt=""></span>	
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
