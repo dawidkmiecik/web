@@ -20,7 +20,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  margin-bottom: 3.0rem;
+
 }
 
 p {
@@ -28,7 +28,23 @@ p {
 }
 
 
+.margin-right-min {
+  margin-right: 1rem;
+}// Special class for img on technolgy 
+
 // General Style Rules END
+
+
+// Arrow Top
+#scroolTOP { display: none;position: fixed; z-index:99999; right: 20px; bottom: 20px;border:0px; }
+.gototop_icon_i { width:45px;height:45px; }
+// Arrow Top END
+
+// Socilas Icon Ruels and Top (numer)
+
+#top {
+  margin-bottom: 3.0rem;
+}
 
 .img-responsiveLogo {
   height: 4.5rem;
@@ -41,16 +57,6 @@ p {
   display: block;
   max-width: 50%;
   height: 60px;
-}
-// Arrow Top
-#scroolTOP { display: none;position: fixed; z-index:99999; right: 20px; bottom: 20px;border:0px; }
-.gototop_icon_i { width:45px;height:45px; }
-// Arrow Top END
-
-// Socilas Icon Ruels and Top (numer)
-
-#top {
-  margin-bottom: 3.0rem;
 }
 
 .phoneSocials {
@@ -141,9 +147,6 @@ p {
 
 // Navbar Ruels END
 
-//Carousel Rules
-
-
 //Mobile Version instead Slider
 
 .mobileImg {
@@ -192,7 +195,7 @@ p {
 
 //Mobile Version instead Slider END
 
-// Caorusel Style
+// Caorusel Style 
 #owl-demo {
   margin-top: 6.0rem;
   .item img {
@@ -203,11 +206,7 @@ p {
   }
 }
 
-/* #owl-demo  */
-
-
 h3 {
-
   position: absolute;
   left: 50%;
   top: 50%;
@@ -221,56 +220,76 @@ h3 {
   font-weight: 800;
   color: #3cbabe;
   overflow: hidden;
-  font-size: 3em; }
+  font-size: 3em; 
+}
 
  .active {
+  h3 {
+    position: absolute;
+    overflow: visible;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: 'Lato';
+    font-weight: 800;
+    color: #3cbabe;
+    font-size: 3em;
+  }/* h3 */
 
-h3 {
-  position: absolute;
-  overflow: visible;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-style: normal;
-  font-family: 'Lato';
-  font-weight: 800;
-  color: #3cbabe;
-  font-size: 3em; }
   h3 .letter {
     transform: scale(0);
-    animation: pop-up .25s forwards; }
-    h3 .letter:nth-child(1) {
-      animation-delay: 0.1s; }
-    h3 .letter:nth-child(2) {
-      animation-delay: 0.15s; }
-    h3 .letter:nth-child(3) {
-      animation-delay: 0.2s; }
-    h3 .letter:nth-child(4) {
-      animation-delay: 0.25s; }
-    h3 .letter:nth-child(5) {
-      animation-delay: 0.30s; }
-    h3 .letter:nth-child(6) {
-      animation-delay: 0.35s; }
-    h3 .letter:nth-child(7) {
-      animation-delay: 0.40s; }
-    h3 .letter:nth-child(8) {
-      animation-delay: 0.45s; }
-    h3 .letter:nth-child(9) {
-      animation-delay: 0.50s; }
-    h3 .letter:nth-child(10) {
-      animation-delay: 0.55s; }
-    h3 .letter:nth-child(11) {
-      animation-delay: 0.60s; }
-    h3 .letter:nth-child(12) {
-      animation-delay: 0.65s; }
-    h3 .letter:nth-child(13) {
-      animation-delay: 0.7s; }
-    h3 .letter.heart {
-      line-height: 1.25em; }
+    animation: pop-up .25s forwards; 
+  }/* h3 letter */
+
+  h3 .letter:nth-child(1) {
+    animation-delay: 0.1s; 
+  }
+  h3 .letter:nth-child(2) {
+    animation-delay: 0.15s; 
+  }
+  h3 .letter:nth-child(3) {
+    animation-delay: 0.2s; 
+  }
+  h3 .letter:nth-child(4) {
+    animation-delay: 0.25s; 
+  }
+  h3 .letter:nth-child(5) {
+    animation-delay: 0.30s; 
+  }
+  h3 .letter:nth-child(6) {
+    animation-delay: 0.35s; 
+  }
+  h3 .letter:nth-child(7) {
+    animation-delay: 0.40s; 
+  }
+  h3 .letter:nth-child(8) {
+    animation-delay: 0.45s; 
+  }
+  h3 .letter:nth-child(9) {
+    animation-delay: 0.50s; 
+  }
+  h3 .letter:nth-child(10) {
+    animation-delay: 0.55s; 
+  }
+  h3 .letter:nth-child(11) {
+    animation-delay: 0.60s; 
+  }
+  h3 .letter:nth-child(12) {
+    animation-delay: 0.65s; 
+  }
+  h3 .letter:nth-child(13) {
+    animation-delay: 0.7s; 
+  }
+  h3 .letter.heart {
+    line-height: 1.25em; 
+  }
+
+}/* active */
 
 @keyframes pop-up {
   0% {
@@ -282,7 +301,7 @@ h3 {
   100% {
     transform: scale(1) translateY(0px);
     opacity: 1; } }
-}
+
 
 .owl-controls {
   position: absolute;
@@ -319,6 +338,9 @@ h3 {
 #technology {
   background-color: @BackgroundBodyColor;
   padding-top: 50px;
+  h2 {
+      margin-bottom: 3.0rem;
+  }
   //background-color: //darken(@BackgroundColorWhite, 10%)
 }
 
@@ -336,7 +358,9 @@ h3 {
     margin-bottom: 3.0rem;
   }
 }
+// Technology Style END
 
+// Offer Style 
 #offer {
   height: 100vh;
   width:100%;
@@ -344,8 +368,8 @@ h3 {
   background-color: #d7eef4; 
 }
 
-
-.dupa {
+// Cloud animation
+.cloud {
   background:  url("../img/cloud.png") repeat-x 0% 0%;
   background-size: 100px 48.5px;
   height: 100%;
@@ -354,7 +378,7 @@ h3 {
   padding: 0px;
 }
 
-.dupa2 {
+.cloudSecond {
 background: url("../img/cloud.png") repeat-x left 80%;
 background-size: 150px 72.75px;
 height: 100%;
@@ -362,10 +386,6 @@ animation: 7.5s infinite cloud2 linear;
 -webkit-animation: 7.5s infinite cloud2 linear;
 }
  
-.dupa3 {
-height: 100%;
-}
-
 @keyframes cloud1 {
     from { background-position: 0% 5%; }
     to { background-position: 100px 5%; }
@@ -396,16 +416,17 @@ height: 100%;
     to { background-position: 200px 15%; }
 }
 
+// Cloud animation END
 
 
-.dupa4 img {
+// Rocket animation
+.rocketFly img {
     -webkit-animation: 10s infinite rocket; 
     position: absolute;
     height: 20%;
     width: 7%;
     top: 70%;
     left: 0%;
-
 }
 
 
@@ -448,6 +469,110 @@ height: 100%;
     100% {
     }
  
+}
+
+// Rocket animation END
+
+
+.btn-style {
+  background-color: @BackgroundColorRed;
+  padding: .5rem 2.0rem;
+  color: black;
+}
+
+#contact {
+  background-color: @BackgroundColorRed;
+  padding-top: 50px;
+}
+
+.offerContent {
+  margin-top: 55%;
+  img {
+    height: 81px;
+    width: inherit;
+  }
+}
+// Offer Style END
+
+.contactContent {
+  text-align: center;
+  
+  iframe {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+  }
+  h5 {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: bold;
+     font-size: 1.8rem;
+     text-align: center;
+  }
+}
+
+.contactForm {
+  margin-top: 3.0rem;
+  label {
+    display: block;
+    /* ustawiamy by label rozpoczynał się od nowej linii*/
+    margin-bottom: 5px;
+    /* dodajemy margines dolny */
+    font-weight: bold;
+    /* pogrubiamy czcionkę */
+    text-transform: uppercase;
+    /* zamieniamy wszystkie litery na duże */
+    font-size: 1.5rem;
+    /* ustawiamy wielkość czcionki */
+    color: black;
+    /* ustawiamy kolor czcionki */
+    font-family: 'Open Sans', sans-serif;
+  }
+}
+.contactForm textarea {
+  height: 150px;
+  width: 100%;
+  /* padding-bottom: 15px; */
+}
+.contactForm input {
+  padding: 5px;
+  /* dodajemy margines wewnątrz naszego pola */
+  border-radius: 3px;
+  /* dodajemy zaokraglone rogi */
+  border: 2px solid #ccc;
+  /* dodajemy obramowanie */
+  margin-bottom: 25px;
+  /* dodajemy margines dolny */
+  width: 100%;
+  /* ustalamy szerokość */
+}
+.contactForm input#submit {
+  width: 100%;
+  /* ustalamy szerokość */
+  cursor: pointer;
+  /* zmieniamy kursor */
+  margin-bottom: 40px;
+  /* resetujemy margines dolny */
+  margin-top: 15px;
+  font-size: 1.9rem;
+  font-family: 'Open Sans', sans-serif;
+}
+.contactForm p.copy {
+  color: #555555;
+  /* ustawiamy kolor czcionki */
+  margin-bottom: 0px;
+  /* resetujemy margines dolny */
+  font-size: 12px;
+  /* ustawiamy rozmiar czcionki */
+  text-align: center;
+  /* wyśrodkowywujemy tekst */
+}
+.contactForm p.copy a {
+  color: #555555;
+  /* ustawiamy kolor czcionki */
+  text-decoration: none;
+  /* usuwamy podkreślenie linku */
+  font-weight: bold;
+  /* pogrubiamy czcionkę */
 }
 
 
