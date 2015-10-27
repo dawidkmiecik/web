@@ -11,18 +11,18 @@
 /* Styling Next and Prev buttons */
 
 .owl-theme .owl-controls .owl-buttons div{
-	color: #FFF;
+	color: #d7eef4;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
 	margin: 5px;
-	padding: 3px 10px;
-	font-size: 20px;
-	-webkit-border-radius: 30px;
+	font-size: 30px;
+	/* 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
 	border-radius: 30px;
-	background: #869791;
-	filter: Alpha(Opacity=80);/*IE7 fix*/
+	background: #869791; */
+	filter: Alpha(Opacity=80);IE7 fix
 	opacity: 0.8;
 }
 /* Clickable class fix problem with hover on touch devices */
@@ -31,6 +31,7 @@
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	text-decoration: none;
+	color: white;
 }
 
 /* Styling Pagination*/

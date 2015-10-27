@@ -206,7 +206,28 @@ p {
   }
 }
 
-h3 {
+.wordpressLogoSlider img {
+  position: absolute;
+  display: block;
+  height: 25rem !important;
+  width: 45rem !important;
+  top: 10%;
+  overflow: hidden;
+}
+
+.active .wordpressLogoSlider img {
+    position: absolute;
+    height: 25rem !important;
+    width: 45rem !important;
+    top: 5%;
+    right: -10%;
+    animation: pop-up .5s forwards;
+    animation-delay: 0.3s; 
+    overflow: visible; 
+    margin-right: 0px;
+}
+
+.sliderContent {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -224,7 +245,7 @@ h3 {
 }
 
  .active {
-  h3 {
+  .sliderContent  {
     position: absolute;
     overflow: visible;
     left: 50%;
@@ -241,51 +262,51 @@ h3 {
     font-size: 3em;
   }/* h3 */
 
-  h3 .letter {
+  .sliderContent  .letter {
     transform: scale(0);
     animation: pop-up .25s forwards; 
   }/* h3 letter */
 
-  h3 .letter:nth-child(1) {
+  .sliderContent  .letter:nth-child(1) {
     animation-delay: 0.1s; 
   }
-  h3 .letter:nth-child(2) {
+  .sliderContent  .letter:nth-child(2) {
     animation-delay: 0.15s; 
   }
-  h3 .letter:nth-child(3) {
+  .sliderContent  .letter:nth-child(3) {
     animation-delay: 0.2s; 
   }
-  h3 .letter:nth-child(4) {
+  .sliderContent  .letter:nth-child(4) {
     animation-delay: 0.25s; 
   }
-  h3 .letter:nth-child(5) {
+  .sliderContent  .letter:nth-child(5) {
     animation-delay: 0.30s; 
   }
-  h3 .letter:nth-child(6) {
+  .sliderContent  .letter:nth-child(6) {
     animation-delay: 0.35s; 
   }
-  h3 .letter:nth-child(7) {
+  .sliderContent  .letter:nth-child(7) {
     animation-delay: 0.40s; 
   }
-  h3 .letter:nth-child(8) {
+  .sliderContent  .letter:nth-child(8) {
     animation-delay: 0.45s; 
   }
-  h3 .letter:nth-child(9) {
+  .sliderContent  .letter:nth-child(9) {
     animation-delay: 0.50s; 
   }
-  h3 .letter:nth-child(10) {
+  .sliderContent  .letter:nth-child(10) {
     animation-delay: 0.55s; 
   }
-  h3 .letter:nth-child(11) {
+  .sliderContent  .letter:nth-child(11) {
     animation-delay: 0.60s; 
   }
-  h3 .letter:nth-child(12) {
+  .sliderContent  .letter:nth-child(12) {
     animation-delay: 0.65s; 
   }
-  h3 .letter:nth-child(13) {
+  .sliderContent  .letter:nth-child(13) {
     animation-delay: 0.7s; 
   }
-  h3 .letter.heart {
+  .sliderContent  .letter.heart {
     line-height: 1.25em; 
   }
 
@@ -318,13 +339,14 @@ h3 {
  
 .owl-theme .owl-controls .owl-buttons .owl-prev{
   left: 0px;
-  top: -170px; 
+  top: -180px; 
 }
  
 .owl-theme .owl-controls .owl-buttons .owl-next{
   right: 0px;
-  top: -170px;
+  top: -180px;
 }
+
 
 
 .active .bar {
@@ -345,6 +367,8 @@ h3 {
   0% {width: 0%;}
   100% {width: 100%;}
 }
+
+
 
 // Caorusel Style END
 
