@@ -35,6 +35,7 @@
 						<li><a class="page-scroll" href="#top">Start</a></li>
 						<li><a class="page-scroll" href="#offer">Oferta</a></li>
 						<li><a class="page-scroll" href="#technology">Technologie</a></li>
+						<li><a class="page-scroll" href="#question">Pytania</a></li>
 						<li><a class="page-scroll" href="#contact">Kontakt</a></li>
 					</ul>
 				</div><!-- navbar-collapse -->

@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<!-- Default Theme -->
 		<link rel="stylesheet" href="css/owl.theme.css">
+
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<!-- Bootstrap Dropdown Hover JS -->
 		<script src="js/jquery.easing.min.js"></script>
@@ -21,6 +22,7 @@
 		<script src="js/owl.carousel.js"></script>
 		<script src="js/jquery.functions.js"></script>
 		<script src="js/transition.js"></script>
-		<script src="js/button.js"></script>	
+		<script src="js/button.js"></script>
+		<script src="js/collapse.js"></script>	
 	</head>
 		<body>

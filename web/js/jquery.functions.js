@@ -36,8 +36,11 @@ $(document).ready(function() {
       autoHeight : true,
       addClassActive: true,
       autoPlay: true,
-      navigationText : ["dupa","next"],
-
+      navigationText : [
+      "<i class='glyphicon glyphicon-chevron-left'></i>",
+      "<i class='glyphicon glyphicon-chevron-right'></i>"
+      ],
+      
 
 
 
