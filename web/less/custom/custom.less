@@ -203,6 +203,7 @@ p {
     width: 100%;
     height: auto;
     height: 85.8vh;
+    opacity: 0.4;
   }
 }
 
@@ -227,29 +228,13 @@ p {
     margin-right: 0px;
 }
 
-.sliderContent {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-style: normal;
-  font-family: 'Lato';
-  font-weight: 800;
-  color: #3cbabe;
-  overflow: hidden;
-  font-size: 3em; 
-}
-
- .active {
-  .sliderContent  {
+// Slider Content Rules in Style carousel rules 
+.active {
+  .sliderContent,.sliderContentTwo,.sliderContentThree  {
     position: absolute;
     overflow: visible;
-    left: 50%;
-    top: 50%;
+    left: 25%;
+    top: 20%;
     transform: translate(-50%, -50%);
     display: flex;
     margin: 0;
@@ -258,14 +243,31 @@ p {
     font-style: normal;
     font-family: 'Lato';
     font-weight: 800;
-    color: #3cbabe;
-    font-size: 3em;
-  }/* h3 */
+    color: darken(#37759E, 10%);
+    font-size: 7rem;
+}/* sliderContent, sliderContentTwo sliderContentThree  */
 
-  .sliderContent  .letter {
+// Position on carosule content 
+  .sliderContentTwo {
+    top: 30%;
+    left: 35%;
+    font-size: 5rem;
+    color: darken(white, 70%)
+
+  }
+
+  .sliderContentThree {
+    top: 40%;
+    left: 40%;
+    font-size: 5rem;
+  }
+// Position on carosule content  END
+
+// Animation Slider content First
+  .sliderContent .letter {
     transform: scale(0);
     animation: pop-up .25s forwards; 
-  }/* h3 letter */
+  }/*letter */
 
   .sliderContent  .letter:nth-child(1) {
     animation-delay: 0.1s; 
@@ -294,18 +296,119 @@ p {
   .sliderContent  .letter:nth-child(9) {
     animation-delay: 0.50s; 
   }
-  .sliderContent  .letter:nth-child(10) {
-    animation-delay: 0.55s; 
+// Animation Slider content First END
+  
+
+// Animation Slider content TWO 
+  .sliderContentTwo .letterTwo {
+    transform: scale(0);
+    animation: pop-up .25s forwards; 
   }
-  .sliderContent  .letter:nth-child(11) {
+
+  .sliderContentTwo .letterTwo:nth-child(1) {
+    animation-delay: 0.55s;
+    margin-right: 0.5rem; 
+  }
+  .sliderContentTwo .letterTwo:nth-child(2) {
     animation-delay: 0.60s; 
   }
-  .sliderContent  .letter:nth-child(12) {
+  .sliderContentTwo .letterTwo:nth-child(3) {
     animation-delay: 0.65s; 
   }
-  .sliderContent  .letter:nth-child(13) {
+  .sliderContentTwo .letterTwo:nth-child(4) {
     animation-delay: 0.7s; 
   }
+  .sliderContentTwo .letterTwo:nth-child(5) {
+    animation-delay: 0.75s; 
+  }
+  .sliderContentTwo .letterTwo:nth-child(6) {
+    animation-delay: 0.8s; 
+  }
+  .sliderContentTwo .letterTwo:nth-child(7) {
+    animation-delay: 0.85s;
+    margin-right: 0.5rem;  
+  }
+  .sliderContentTwo .letterTwo:nth-child(9) {
+    animation-delay: 0.9s; 
+  }
+  .sliderContentTwo .letterTwo:nth-child(10) {
+    animation-delay: 0.95s; 
+  }
+  .sliderContentTwo .letterTwo:nth-child(11) {
+    animation-delay: 1s; 
+  }
+  .sliderContentTwo .letterTwo:nth-child(12) {
+    animation-delay: 1.05s; 
+  }
+  .sliderContentTwo .letterTwo:nth-child(13) {
+    animation-delay: 1.1s; 
+  }
+// Animation Slider content TWO END
+
+// Animation Slider content THREE 
+  .sliderContentThree .letterThree {
+    transform: scale(0);
+    animation: pop-up .25s forwards; 
+  }
+
+  .sliderContentThree .letterThree:nth-child(1) {
+    animation-delay: 1.15s; 
+  }
+  .sliderContentThree .letterThree:nth-child(2) {
+    animation-delay: 1.2s; 
+  }
+
+  .sliderContentThree .letterThree:nth-child(3) {
+    animation-delay: 1.25s; 
+  }
+  .sliderContentThree .letterThree:nth-child(4) {
+    animation-delay: 1.30s;
+  } 
+  .sliderContentThree .letterThree:nth-child(5) {
+    margin-right: 0.5rem;
+    animation-delay: 1.35s;
+  } 
+  .sliderContentThree .letterThree:nth-child(6) {
+    animation-delay: 1.4s; 
+  }
+  .sliderContentThree .letterThree:nth-child(7) {
+    animation-delay: 1.45s;
+  } 
+  .sliderContentThree .letterThree:nth-child(8) {
+    margin-right: 0.5rem;
+    animation-delay: 1.5s; 
+  }
+  .sliderContentThree .letterThree:nth-child(9) {
+    animation-delay: 1.55s;
+  } 
+  .sliderContentThree .letterThree:nth-child(10) {
+    animation-delay: 1.60s;
+  } 
+  .sliderContentThree .letterThree:nth-child(11) {
+    animation-delay: 1.65s;
+  } 
+  .sliderContentThree .letterThree:nth-child(12) {
+    animation-delay: 1.70s;
+  } 
+  .sliderContentThree .letterThree:nth-child(13) {
+    animation-delay: 1.75s;
+  } 
+  .sliderContentThree .letterThree:nth-child(14) {
+    animation-delay: 1.8s; 
+  }
+  .sliderContentThree .letterThree:nth-child(15) {
+    animation-delay: 1.9s; 
+  }
+  .sliderContentThree .letterThree:nth-child(16) {
+    animation-delay: 1.95s;
+  } 
+  .sliderContentThree .letterThree:nth-child(17) {
+    animation-delay: 2s; 
+  }
+  .sliderContentThree .letterThree:nth-child(18) {
+    animation-delay: 2.05s; 
+  }
+// Animation Slider content THREE END
   .sliderContent  .letter.heart {
     line-height: 1.25em; 
   }
@@ -553,11 +656,75 @@ animation: 7.5s infinite cloud2 linear;
 
 // Offer Style END
 
+// Question Style
 
 #question {
   background-color: #d7eef4;
   padding-top: 50px;
 }
+
+.panel-default > .panel-heading{
+  background: #fff;
+  border: none;
+
+  h4{
+    text-decoration: none;
+  }
+
+  a{
+    text-transform: uppercase;
+    font-weight: bold;
+    /*  border: solid 2px blue; */
+    line-height: 4rem; 
+    display: inline-block; 
+    padding-left: 5rem;
+      position: relative; 
+    min-height: 4rem;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+
+
+    &:focus{
+      text-decoration: none;
+    }
+
+    &:hover {
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease;
+      color: #73dd81;
+      text-decoration: none;
+      }
+
+
+    span{
+      display: block;
+        width: 4rem;
+        height: 4rem;
+      background-image: url(../img/minus.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border: solid 0.2rem #cdcdcd;
+        }
+
+    }
+  }
+
+.collapsed {
+  span{
+  background-image: url(../img/plus.png)!important;
+    }
+}
+
+// Question Style END
 
 
 .contactContent {
