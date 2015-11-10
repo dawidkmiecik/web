@@ -7,13 +7,14 @@
 		<title>Feniks Design Studio</title>
 		 <!-- Icon -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		 <!-- Bootstrap Dropdown Hover CSS -->
-		<link href="css/style.css" rel="stylesheet">
-		<link href="css/fonts.css" rel="stylesheet">
 		<!-- Important Owl stylesheet -->
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<!-- Default Theme -->
 		<link rel="stylesheet" href="css/owl.theme.css">
+		<link rel="stylesheet" href="css/animations.css" type="text/css">
+		<link href="css/fonts.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
 
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<!-- Bootstrap Dropdown Hover JS -->

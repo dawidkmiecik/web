@@ -30,12 +30,13 @@ $(document).ready(function() {
       stopOnHover: false,
       paginationNumbers: true,
       lazyEffect: true,
-      slideSpeed : 900,
-      paginationSpeed : 400,
+      slideSpeed : 500,
+      paginationSpeed : 1200,
+      rewindSpeed: 1200,
       singleItem:true,
       autoHeight : true,
       addClassActive: true,
-      autoPlay: true,
+      autoPlay: 8000,
       navigationText : [
       "<i class='glyphicon glyphicon-chevron-left'></i>",
       "<i class='glyphicon glyphicon-chevron-right'></i>"
