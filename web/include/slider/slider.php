@@ -1,4 +1,22 @@
-		<div id="owl-demo" class="owl-carousel owl-theme">
+		<div class="container">
+			<div class="row visible-xs-block visible-sm-block mobileSlider">
+				<div class="col-sm-12">
+					<iframe class="center-block text-center" src="img/mobile-wordpress.svg" frameborder="0"></iframe>
+					<p class="text-center">Wordpress i obsługa strony staje się łatwiejsza</p>
+				</div>
+				<div class="col-sm-12">
+					<iframe class="center-block text-center" src="img/mobile-loop.svg" frameborder="0"></iframe>
+					<p class="text-center">Twój biznes dostępny na każdym urządzeniu</p>
+				</div>
+				<div class="col-sm-12">
+					<iframe class="center-block text-center" src="img/mobile-responsive.svg" frameborder="0"></iframe>
+					<p class="text-center">Jeśli nie ma Cię w sieci to nie istniejsze</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="owl-demo" class="owl-carousel owl-theme visible-lg-block visible-md-block">
 		 	<div class="item"><img src="img/wordpress-slider.jpg" alt="The Last of us">
 				<div class="sliderContent">
 					<span class="letter">W</span>
