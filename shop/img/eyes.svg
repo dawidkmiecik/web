@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.0//EN'  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" xml:space="preserve" height="27.349mm" width="52.409mm" version="1.0" clip-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4945 2581">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:18.8719}
+    .fil2 {fill:none}
+    .fil0 {fill:black}
+    .fil1 {fill:white}
+    .fil4 {fill:url(#id0)}
+    .fil3 {fill:url(#id1)}
+   ]]>
+  </style>
+  <radialGradient id="id0" cy="37.002%" r="45%">
+   <stop stop-color="#FFBE00" offset="0"/>
+   <stop stop-color="#ff0" offset=".30980"/>
+   <stop stop-color="#f60" offset="1"/>
+  </radialGradient>
+  <radialGradient id="id1" xlink:href="#id0" cy="36.999%" r="45%">
+  </radialGradient>
+ </defs>
+ <g id="Warstwa_x0020_1">
+  <rect width="4945" class="fil0" height="2581"/>
+  <g id="_942679648">
+    <path class="fil1" d="m1155 1006c40 145 49 210 112 363-155-122-168-199-112-363z"/>
+   <path class="fil2" d="m1155 1006c0 129-17 87 23 221 14 46 54 105 89 142"/>
+   <path class="fil3 str0" d="m1156 1005c-12 24-12 77 0 138s36 130 78 193c42 64 102 122 165 162s130 61 199 71c69 11 141 11 216-8 75-18 153-55 204-116s75-146 78-196-15-66-60-85c-45-18-117-39-204-69-87-29-189-66-294-84-106-19-214-19-280-21-66-3-90-8-102 15z"/>
+   <ellipse cy="1169" cx="1594" rx="262" class="fil0" ry="222"/>
+   <ellipse ry="38" rx="14" class="fil1" transform="matrix(.87425 .42798 -.48548 .77072 1424.5 1074.4)"/>
+  </g>
+  <g id="_942679424">
+    <path class="fil1" d="m3636 1015c-40 145-49 210-112 363 154-122 168-199 112-363z"/>
+   <path class="fil2" d="m3636 1015c0 129 17 87-23 221-14 46-54 105-89 142"/>
+   <path class="fil4 str0" d="m3635 1014c12 24 12 77 0 138s-36 130-78 193c-42 64-102 122-166 162-63 40-129 61-198 71-69 11-141 11-216-8-75-18-153-55-204-116s-75-146-78-196 15-66 60-85c45-18 117-39 204-69 87-29 189-66 294-84 105-19 214-19 280-22 66-2 90-7 102 16z"/>
+   <ellipse cy="1178" cx="3197" rx="262" class="fil0" ry="222"/>
+   <ellipse ry="38" rx="14" class="fil1" transform="matrix(-.87425 .42798 .48548 .77072 3366.4 1083.4)"/>
+  </g>
+ </g>
+</svg>
