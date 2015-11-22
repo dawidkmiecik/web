@@ -1,4 +1,4 @@
-/*var gototop_icon = "img/arrow.png";
+var gototop_icon = "img/arrow.png";
 var gototop_run = false;
 jQuery(window).scroll(function(){ //scrool
          
@@ -20,7 +20,7 @@ jQuery(window).scroll(function(){ //scrool
         if ( jQuery('#scroolTOP').length>0 ) jQuery('#scroolTOP').fadeOut('quick').remove();
         gototop_run = false;
     }
-}); //scrool*/
+}); 
 
 $(document).ready(function() {
  

@@ -3,7 +3,7 @@
 			<div class="container visible-xs-block visible-sm-block">
 				<div class="row">
 					<div class="col-sm-12">
-						<p class="text-center">
+						<p class="text-center offerMobileContent">
 							Z nami będziesz miał swoje miejsce w internecie
 						</p>
 						<img class="center-block text-center"src="img/inspectorEarth.png" alt="">
