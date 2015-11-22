@@ -50,9 +50,7 @@ p {
 
 // Background Section Color and Ruels END
 
-// Socilas Icon Ruels and Top (numer)
-
-
+// Socilas Icon Ruels and Top (number)
 
 #top {
   margin-bottom: 3.0rem;
@@ -107,7 +105,7 @@ p {
   }
 }
 
-// Socilas Icon Ruels and top (numer)END
+// Socilas Icon Ruels and top (number)END
 
 // Navbar Ruels
 
@@ -179,8 +177,11 @@ p {
 
 // Content on top Style
 
-.btn-middle {
-  padding-top: 50vh;
+.btnContent {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top:70vh;
   h2 {
     margin-bottom: 5rem;
   }
@@ -202,13 +203,112 @@ p {
   }
 }
 
-// Content on top Style //
+#canvas-container {
+  
+  position: relative;
+}
+    
+canvas {
+  cursor: crosshair;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
 
-// Offer Ruels END
+canvas:active {
+  cursor: crosshair;
+}
 
+// Content on top Style END//
+
+// Offer Ruels Style
 #offer {
   padding-top: 50px;
 }
+
+  // Tabs rules style 
+
+  .nav-tabs {
+    background-color: white;
+    li {
+      border-bottom: 4px solid transparent;
+      border-left: 1px dashed @BackgroundBodyColor;
+      font-family: 'Lato';
+      font-size: 1.6rem;
+    }
+
+    .active {
+    border-bottom: 4px solid red;
+    border-radius: none;
+    }// active 
+  }
+
+  .nav-tabs.nav-justified > li > a {
+    border: none;
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover {
+    border: none;
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: none;
+  }
+
+  .nav > li > a:hover {
+    background-color: transparent;
+  }
+
+  // Tabs rules style 
+
+// Offer Ruels Style END
+
+
+// Promotion Rules Style
+
+#promotion {
+  padding-top: 50px;
+}
+
+.promotionContent {
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  p{
+    font-size: 1.6rem;
+    font-family: 'Lato';
+  }
+}
+
+// Service Rules Style
+
+#service {
+  padding-top: 50px;
+}
+
+.serviceHeading {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.serviceContent {
+  img {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  p {
+    font-family: 'Lato';
+    font-size: 1.6rem;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+// Service Rules Style END
 
 // Contact Rules 
 

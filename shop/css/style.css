@@ -4098,11 +4098,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: 0;
   border-radius: 4px;
 }
-.nav-tabs.nav-justified > .active > a,
-.nav-tabs.nav-justified > .active > a:hover,
-.nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #dddddd;
-}
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a {
     border-bottom: 1px solid #dddddd;
@@ -4165,11 +4160,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs-justified > li > a {
   margin-right: 0;
   border-radius: 4px;
-}
-.nav-tabs-justified > .active > a,
-.nav-tabs-justified > .active > a:hover,
-.nav-tabs-justified > .active > a:focus {
-  border: 1px solid #dddddd;
 }
 @media (min-width: 768px) {
   .nav-tabs-justified > li > a {
@@ -6905,10 +6895,13 @@ p {
   -o-transition: all 0.50ms ease;
   transition: all 0.50ms ease;
 }
-.btn-middle {
-  padding-top: 50vh;
+.btnContent {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 70vh;
 }
-.btn-middle h2 {
+.btnContent h2 {
   margin-bottom: 5rem;
 }
 .btn-top {
@@ -6926,8 +6919,78 @@ p {
   border: 3px solid #333333;
   color: black;
 }
+#canvas-container {
+  position: relative;
+}
+canvas {
+  cursor: crosshair;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+canvas:active {
+  cursor: crosshair;
+}
 #offer {
   padding-top: 50px;
+}
+.nav-tabs {
+  background-color: white;
+}
+.nav-tabs li {
+  border-bottom: 4px solid transparent;
+  border-left: 1px dashed #ededed;
+  font-family: 'Lato';
+  font-size: 1.6rem;
+}
+.nav-tabs .active {
+  border-bottom: 4px solid red;
+  border-radius: none;
+}
+.nav-tabs.nav-justified > li > a {
+  border: none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+  border: none;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: none;
+}
+.nav > li > a:hover {
+  background-color: transparent;
+}
+#promotion {
+  padding-top: 50px;
+}
+.promotionContent h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.promotionContent p {
+  font-size: 1.6rem;
+  font-family: 'Lato';
+}
+#service {
+  padding-top: 50px;
+}
+.serviceHeading {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 3rem;
+}
+.serviceContent img {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.serviceContent p {
+  font-family: 'Lato';
+  font-size: 1.6rem;
+  text-align: justify;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 #contact {
   background-color: #e33348;
